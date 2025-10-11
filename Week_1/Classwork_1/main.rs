@@ -1,8 +1,8 @@
 use std::io;
 fn main(){
+    println!("Temperature Converter");
+
     loop {
-
-
     let mut choice = String::new();
     println!("Do you want convert from Fahrenheit to Celsius (F) or from Celsius to Fahrenheit (C) or end it (E)?");
     std::io::stdin().read_line(&mut choice).expect("Failed to read line");
